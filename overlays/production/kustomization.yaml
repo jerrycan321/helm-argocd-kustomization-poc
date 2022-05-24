@@ -1,6 +1,6 @@
 namePrefix:  prod-
 
-helmChart:
+helmCharts:
   valuesFile:  https://raw.githubusercontent.com/jerrycan321/helm-argocd-kustomization-poc/main/overlays/production/values.yaml
 resources:
 - ../../base
